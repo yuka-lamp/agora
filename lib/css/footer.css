@@ -1,0 +1,21 @@
+/*--------------------------------------------------------------
+フッター
+--------------------------------------------------------------*/
+footer .tel {
+  display: flex;
+  justify-content: flex-start;
+}
+
+footer .tel div:first-child {
+  margin-right: 2rem
+}
+
+footer .bg {
+  background: #2A241A;
+  color: #fff;
+  height: 160px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  align-items: center;
+  margin-top: 80px;
+}

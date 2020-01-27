@@ -1,0 +1,28 @@
+/*--------------------------------------------------------------
+ヘッダー
+--------------------------------------------------------------*/
+header .txt-c {
+  position: relative;
+}
+header .link {
+  position: absolute;
+  top: 12%;
+  right: 0;
+}
+
+header .link a {
+  display: block;
+}
+
+header nav {
+  width: 100%
+}
+
+header nav ul li {
+  margin: 0;
+  width: 20%
+}
+
+header nav ul li a {
+  display: block;
+}
