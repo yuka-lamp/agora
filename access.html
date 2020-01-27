@@ -2,7 +2,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>レストラン</title>
+  <title>アクセス</title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Noto+Sans+JP:400,500&display=swap" rel="stylesheet">
@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="./lib/css/common.css">
   <link rel="stylesheet" href="./lib/css/header.css">
   <link rel="stylesheet" href="./lib/css/footer.css">
-  <link rel="stylesheet" href="./lib/css/restaurant.css">
+  <link rel="stylesheet" href="./lib/css/access.css">
 </head>
 
 <body>
@@ -36,45 +36,37 @@
   </header>
 
   <section class="mv mb-30">
-    <div id="slider">
-      <div class="inner">
-        <div><img class="img01" src="./lib/images/restaurant/mv/01.png" alt="メインビジュアル"></div>
-        <div><img class="img02" src="./lib/images/restaurant/mv/02.png" alt="メインビジュアル"></div>
-        <div><img class="img03" src="./lib/images/restaurant/mv/03.png" alt="メインビジュアル"></div>
-      </div>
-    </div>
+    <img class="img01" src="./lib/images/access/mv.png" alt="メインビジュアル">
   </section>
-  <main id="restaurant">
-    <section class="mb-30">
-      <img src="./lib/images/restaurant/about.png" alt="上質な空間に身も心も委ねる贅沢">
+  <main id="access">
+    <section class="about mb-30">
+      <img src="./lib/images/access/about_map.png" alt="マップ">
+      <img src="./lib/images/access/about_txt.png" alt="電車でもお車でもアクセス良好！">
     </section>
-    <section class="mb-30 mt-30">
-      <ul>
-        <li class="">
-          <img src="./lib/images/restaurant/img01.png" alt="レストラン写真">
-          <img src="./lib/images/restaurant/txt01.png" alt="レストラン詳細">
-        </li>
-        <li class="">
-          <img src="./lib/images/restaurant/img02.png" alt="レストラン写真">
-          <img src="./lib/images/restaurant/txt02.png" alt="レストラン詳細">
-        </li>
-        <li class="">
-          <img src="./lib/images/restaurant/img03.png" alt="レストラン写真">
-          <img src="./lib/images/restaurant/txt03.png" alt="レストラン詳細">
-        </li>
-        <li class="">
-          <img src="./lib/images/restaurant/img01.png" alt="レストラン写真">
-          <img src="./lib/images/restaurant/txt01.png" alt="レストラン詳細">
-        </li>
-        <li class="">
-          <img src="./lib/images/restaurant/img02.png" alt="レストラン写真">
-          <img src="./lib/images/restaurant/txt02.png" alt="レストラン詳細">
-        </li>
-        <li class="">
-          <img src="./lib/images/restaurant/img03.png" alt="レストラン写真">
-          <img src="./lib/images/restaurant/txt03.png" alt="レストラン詳細">
-        </li>
-      </ul>
+    <section class="mb-30">
+      <img class="mb-30" src="./lib/images/access/train/ttl.png" alt="電車をご利用の場合">
+      <div class="txt-c mb-30">
+        <img src="./lib/images/access/train/time.png" alt="アクセス時間">
+      </div>
+      <img class="mb-30" src="./lib/images/access/train/access.png" alt="アクセスマップ">
+      <img class="mb-30" src="./lib/images/access/train/txt_01.png" alt="アクセス詳細">
+      <img src="./lib/images/access/train/txt_02.png" alt="アクセス詳細">
+    </section>
+    <section class="mb-30">
+      <img class="mb-30" src="./lib/images/access/car/ttl.png" alt="車をご利用の場合">
+      <div class="txt-c mb-30">
+        <img src="./lib/images/access/car/time.png" alt="アクセス時間">
+      </div>
+      <img class="mb-30" src="./lib/images/access/car/access.png" alt="アクセスマップ">
+      <img class="mb-30" src="./lib/images/access/car/txt_01.png" alt="アクセス詳細">
+      <div class="txt-c">
+        <img src="./lib/images/access/car/map.png" alt="アクセスマップ">
+      </div>
+    </section>
+    <section class="mb-30">
+      <img class="mb-30" src="./lib/images/access/parking/ttl.png" alt="ホテル駐車場のご案内">
+      <img class="mb-30" src="./lib/images/access/parking/table.png" alt="駐車場テーブル">
+      <img class="mb-30" src="./lib/images/access/parking/txt.png" alt="駐車場詳細">
     </section>
   </main>
 
@@ -107,34 +99,6 @@
       </div>
     </div>
   </footer>
-  <script type="text/javascript" charset="Shift_JIS" src="https://img.travel.rakuten.co.jp/share/common/js/lib/jquery/jquery.js"></script>
-  <script type="text/javascript">
-    var flg = 1;
-    $(function() {
-
-      setInterval(function() {
-        $(".img0" + flg).fadeOut(1000);
-        if (flg == 4) {
-          $(".img01").fadeIn(1000);
-        } else {
-          $(".img0" + (flg + 1)).fadeIn(1000);
-        }
-        flg++;
-        if (flg > 4) {
-          flg = 1;
-        }
-      }, 3000);
-    });
-    // $(function() {
-    //   var biggestHeight = "0";
-    //   $("#slider *").each(function() {
-    //     if ($(this).height() > biggestHeight) {
-    //       biggestHeight = $(this).height()
-    //     }
-    //   });
-    //   $("#slider").height(biggestHeight);
-    // })
-  </script>
 </body>
 
 </html>

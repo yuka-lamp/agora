@@ -2,7 +2,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>エグゼクティブ</title>
+  <title>ゲストルーム</title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Noto+Sans+JP:400,500&display=swap" rel="stylesheet">
@@ -38,9 +38,9 @@
   <section class="mv mb-30">
     <div id="slider">
       <div class="inner">
-        <div><img class="img01" src="./lib/images/top/mv/01.png" alt="メインビジュアル"></div>
-        <div><img class="img02" src="./lib/images/top/mv/02.png" alt="メインビジュアル"></div>
-        <div><img class="img03" src="./lib/images/top/mv/03.png" alt="メインビジュアル"></div>
+        <div><img class="img01" src="./lib/images/guest/mv/01.png" alt="メインビジュアル"></div>
+        <div><img class="img02" src="./lib/images/guest/mv/02.png" alt="メインビジュアル"></div>
+        <div><img class="img03" src="./lib/images/guest/mv/03.png" alt="メインビジュアル"></div>
       </div>
     </div>
   </section>
@@ -196,13 +196,13 @@
 
       setInterval(function() {
         $(".img0" + flg).fadeOut(1000);
-        if (flg == 4) {
+        if (flg == 3) {
           $(".img01").fadeIn(1000);
         } else {
           $(".img0" + (flg + 1)).fadeIn(1000);
         }
         flg++;
-        if (flg > 4) {
+        if (flg > 3) {
           flg = 1;
         }
       }, 3000);
