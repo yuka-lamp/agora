@@ -10,3 +10,7 @@ access
   box-sizing: border-box;
   margin: 0 2rem
 }
+
+#access .about a {
+  display: block;
+}

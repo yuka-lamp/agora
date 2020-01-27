@@ -44,6 +44,10 @@
       </div>
     </div>
   </section>
+  <div class="mb-30 txt-c">
+    <img src="./lib/images/booking.png" alt="アゴーラリージェンシーロゴ">
+  </div>
+
   <main id="exe">
     <section class="mb-30">
       <img src="./lib/images/exe/about.png" alt="上質な空間に身も心も委ねる贅沢">
@@ -57,7 +61,7 @@
           <div><img class="img04" src="./lib/images/exe/slide01/04.png" alt="スライドショー"></div>
         </div>
       </div>
-      <img class="mt-30 mb-30" src="./lib/images/exe/txt01.png" alt="一日の終わりと始まりをくつろぎながら味わう美食。">
+      <img class="mt-30 mb-30" src="./lib/images/exe/txt01.png" alt="刻一刻と変わる自然美を体感できる絶好のロケーション。">
       <p>西に面した部屋からは大阪湾、その向こうに明石大橋、淡路島を望み、東に面した部屋や専用ラウンジからは歴史深い堺の街並みや古墳群、金剛生駒山系など“美しい日本”を一望いただけます。</p>
     </section>
     <section class="mb-30">
@@ -82,11 +86,11 @@
           <div><img class="img04" src="./lib/images/exe/slide03/04.png" alt="スライドショー"></div>
         </div>
       </div>
-      <img class="mt-30 mb-30" src="./lib/images/exe/txt02.png" alt="一日の終わりと始まりをくつろぎながら味わう美食。">
+      <img class="mt-30 mb-30" src="./lib/images/exe/txt03.png" alt="充実のマシンと設備が大人の健康美をサポート。">
       <p>本格的に泳ぎこみたい方にもご満足いただける25m×4コースの競泳プールや、多目的なケーブル式ストレングストレーニングマシン、テクノジム社の「プルリマ」も完備しております。</p>
     </section>
     <section class="mb-30 mt-30">
-      <h2><img class="mb-1" src="./lib/images/exe/ttl01.png" alt="一日の終わりと始まりをくつろぎながら味わう美食。"></h2>
+      <h2><img class="mb-1" src="./lib/images/exe/ttl01.png" alt="ルームタイプから選ぶ"></h2>
       <ul class="ul-01 flex">
         <li>
           <img class="mb-1" src="./lib/images/exe/room_01.png" alt="スイート">
@@ -111,7 +115,7 @@
       </ul>
     </section>
     <section>
-      <img class="mb-30" src="./lib/images/exe/ttl02.png" alt="ツイン・ダブル">
+      <img class="mb-1" src="./lib/images/exe/ttl02.png" alt="サービス詳細">
       <p>・シモンズ社製　ポケットコイルが奏でる豊かなクッション性のベッド
         <br>・アレルギーフリーのエンドレスファイバーを使用した、デュベスタイルの寝具
         <br>・人間工学に基づいてデザインされた高性能なデスクチェア
@@ -126,6 +130,9 @@
   </main>
 
   <footer class="mt-30">
+    <div class="mb-30 txt-c">
+      <img src="./lib/images/booking.png" alt="アゴーラリージェンシーロゴ">
+    </div>
     <div class="flex">
       <div class="tel">
         <div class="">
@@ -161,13 +168,13 @@
 
       setInterval(function() {
         $(".img0" + flg).fadeOut(1000);
-        if (flg == 4) {
+        if (flg == 3) {
           $(".img01").fadeIn(1000);
         } else {
           $(".img0" + (flg + 1)).fadeIn(1000);
         }
         flg++;
-        if (flg > 4) {
+        if (flg > 3) {
           flg = 1;
         }
       }, 3000);
