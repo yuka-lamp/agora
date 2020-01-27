@@ -40,3 +40,41 @@ p, ul li {
 a:hover {
   opacity: .8;
 }
+
+/*--------------------------------------------------------------
+スライダー
+--------------------------------------------------------------*/
+
+#slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+#slider .inner {
+  width: 100%;
+  height: 230px;
+  overflow: hidden;
+}
+#slider .inner img {
+  display: none;
+  position: absolute;
+  left: 0;
+}
+#slider .inner .img01 {
+  display: block;
+}
+
+/*--------------------------------------------------------------
+リスト01
+--------------------------------------------------------------*/
+
+.ul-01 li {
+  width: 49%;
+  border: 1px solid #E0B758;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.ul-01 li img:first-child {
+  width: 100%
+}

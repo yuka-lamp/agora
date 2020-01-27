@@ -11,16 +11,10 @@
   <link rel="stylesheet" href="./lib/css/header.css">
   <link rel="stylesheet" href="./lib/css/footer.css">
   <link rel="stylesheet" href="./lib/css/top.css">
-  <link rel="stylesheet" href="./lib/css/exe.css">
-  <link rel="stylesheet" href="./lib/css/gest.css">
-  <link rel="stylesheet" href="./lib/css/restaurant.css">
-  <link rel="stylesheet" href="./lib/css/fitness.css">
-  <link rel="stylesheet" href="./lib/css/access.css">
-  <link rel="stylesheet" href="./lib/css/sight.css">
 </head>
 
 <body>
-  <header id="header" class="mb-30">
+  <header id="header">
     <div class="txt-c">
       <img src="./lib/images/header/logo.png" alt="アゴーラリージェンシーロゴ">
     </div>
@@ -42,6 +36,15 @@
   </header>
 
   <main id="top">
+    <section class="mv mb-30">
+      <div id="slider">
+        <div class="inner">
+          <div><img class="img01" src="./lib/images/top/mv/01.png" alt="メインビジュアル"></div>
+          <div><img class="img02" src="./lib/images/top/mv/02.png" alt="メインビジュアル"></div>
+          <div><img class="img03" src="./lib/images/top/mv/03.png" alt="メインビジュアル"></div>
+        </div>
+      </div>
+    </section>
     <section class="mb-30">
       <img src="./lib/images/top/about.png" alt="電車でもお車でもアクセス良好！">
     </section>
@@ -101,7 +104,34 @@
       </div>
     </div>
   </footer>
+  <script type="text/javascript" charset="Shift_JIS" src="https://img.travel.rakuten.co.jp/share/common/js/lib/jquery/jquery.js"></script>
+  <script type="text/javascript">
+    var flg = 1;
+    $(function() {
 
+      setInterval(function() {
+        $(".img0" + flg).fadeOut(1000);
+        if (flg == 3) {
+          $(".img01").fadeIn(1000);
+        } else {
+          $(".img0" + (flg + 1)).fadeIn(1000);
+        }
+        flg++;
+        if (flg > 3) {
+          flg = 1;
+        }
+      }, 3000);
+    });
+    $(function() {
+      var biggestHeight = "0";
+      $("#slider *").each(function() {
+        if ($(this).height() > biggestHeight) {
+          biggestHeight = $(this).height()
+        }
+      });
+      $("#slider").height(biggestHeight);
+    })
+  </script>
 </body>
 
 </html>
