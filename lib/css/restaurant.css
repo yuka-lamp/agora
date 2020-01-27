@@ -1,0 +1,15 @@
+/*--------------------------------------------------------------
+restaurant
+--------------------------------------------------------------*/
+
+#restaurant section ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+#restaurant ul li img:last-child {
+  margin-left: 1rem
+}
