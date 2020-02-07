@@ -2,17 +2,27 @@
 guest
 --------------------------------------------------------------*/
 #guest .link a {
-  width: 50%;
+  width: 49.6%;
 }
 
 #guest .link a:first-child {
   width: 100%;
+  margin-bottom: 5px
+}
+
+#guest .link a:nth-child(1) {
+  margin-left: 5px
 }
 
 #guest section:last-child ul li {
-  display: flex;
-  justify-content: space-between;
   align-items: flex-start;
-  padding: 1rem;
   box-sizing: border-box;
+  margin-top: 1rem
+}
+#guest section:last-child ul li img {
+  margin-bottom: 1rem
+}
+
+#guest section .w-30 {
+  width: 32%
 }

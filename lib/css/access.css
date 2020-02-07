@@ -14,3 +14,11 @@ access
 #access .about a {
   display: block;
 }
+
+#access .img {
+  padding: 0 70px
+}
+
+#access .img .w-50 {
+  width: 48%
+}

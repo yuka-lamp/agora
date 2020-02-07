@@ -2,11 +2,31 @@
 top
 --------------------------------------------------------------*/
 
-#top .access .w-50:last-child {
-  padding: 30px 0;
-  text-align: center;
+#top .access {
+  padding: 0 20px;
+  align-items: center;
+}
+
+#top .access .w-50 {
+  width: 60%;
 }
 
 #top .menu ul li:nth-child(1),#top .menu ul li:nth-child(2) {
   margin-bottom: 5px
+}
+
+#top .menu .flex {
+  flex-wrap: nowrap;
+}
+
+#top .menu .flex li {
+  margin-right: 5px;
+}
+
+#top .menu .flex li:last-child {
+  margin-right: 0
+}
+
+.mt-6 {
+  margin-top: 5px
 }

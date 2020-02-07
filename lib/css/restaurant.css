@@ -13,3 +13,7 @@ restaurant
 #restaurant ul li img:last-child {
   margin-left: 1rem
 }
+
+#restaurant .w-50 {
+  width: 43%
+}
