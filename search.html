@@ -1,0 +1,113 @@
+<style type="text/css">
+  .search {
+    width: 950px;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  ul,
+  ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0
+  }
+
+  .mr-10 {
+    margin-right: 10px
+  }
+
+  span {
+    margin: 0 7px 0 5px;
+    font-size: 80%
+  }
+</style>
+
+
+<div class="search">
+  <form>
+    <input type="hidden" value="105" name="f_no">
+    <input type="hidden" value="PLAN" name="f_flg">
+    <input type="hidden" class="f_nen1" name="f_nen1" value="">
+    <input type="hidden" class="f_tuki1" name="f_tuki1" value="">
+    <input type="hidden" class="f_hi1" name="f_hi1" value="">
+    <input type="hidden" class="f_nen2" name="f_nen2" value="">
+    <input type="hidden" class="f_tuki2" name="f_tuki2" value="">
+    <input type="hidden" class="f_hi2" name="f_hi2" value="">
+    <div class="flex">
+      <img src="https://tesuto.site/agora/lib/images/header/search_01.png" alt="空室検索" />
+      <ul class="flex">
+        <li class="flex">
+          <div class="flex">
+            <select>
+              <option value="1" selected>2020</option>
+            </select>
+            <span>年</span>
+          </div>
+          <div class="flex">
+            <select>
+              <option value="1" selected>1</option>
+            </select>
+            <span>月</span>
+          </div>
+          <div class="flex">
+            <select>
+              <option value="1" selected>1</option>
+            </select>
+            <span>日</span>
+          </div>
+        </li>
+        <li class="mr-10">~</li>
+        <li class="flex">
+          <div class="flex">
+            <select>
+              <option value="1" selected>2020</option>
+            </select>
+            <span>年</span>
+          </div>
+          <div class="flex">
+            <select>
+              <option value="1" selected>1</option>
+            </select>
+            <span>月</span>
+          </div>
+          <div class="flex">
+            <select>
+              <option value="1" selected>1</option>
+            </select>
+            <span>日</span>
+          </div>
+        </li>
+      </ul>
+      <ul class="flex">
+        <li class="flex">
+          <select>
+            <option value="1" selected>1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+          <span>室</span>
+        </li>
+        <li class="flex">
+          <select>
+            <option value="1">1</option>
+            <option value="2" selected>2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+          </select>
+          <span>人</span>
+        </li>
+      </ul>
+      <div class="button">
+        <img src="https://tesuto.site/agora/lib/images/header/search_02.png" alt="検索する">
+      </div>
+    </div>
+  </form>
+</div>
