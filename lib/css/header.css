@@ -4,6 +4,7 @@
 header .txt-c {
   position: relative;
 }
+
 header .link {
   position: absolute;
   top: 12%;
@@ -25,4 +26,13 @@ header nav ul li {
 
 header nav ul li a {
   display: block;
+}
+
+#dh-search-form h3, #dh-search-form ul, #dh-search-form ul li, #dh-search-form p {
+  display: inline-block;
+  width: auto;
+}
+
+#dh-search-form dd {
+  display: inline-block;
 }
