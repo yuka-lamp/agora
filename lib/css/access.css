@@ -22,3 +22,7 @@ access
 #access .img .w-50 {
   width: 48%
 }
+#access .map-wrap {
+  width: 750px;
+  margin: 0 auto
+}

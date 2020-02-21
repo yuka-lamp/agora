@@ -2,16 +2,16 @@
 guest
 --------------------------------------------------------------*/
 #guest .link a {
-  width: 49.6%;
+  width: 49.8%;
 }
 
 #guest .link a:first-child {
   width: 100%;
-  margin-bottom: 5px
+  margin-bottom: 3px
 }
 
-#guest .link a:nth-child(1) {
-  margin-left: 5px
+#guest .link a:nth-child(2) {
+  margin-right: 3px
 }
 
 #guest section:last-child ul li {
